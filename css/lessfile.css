@@ -1,0 +1,28 @@
+.nav-pos {
+  float: right;
+}
+.container {
+  margin-top: 60px;
+}
+body {
+  background-color: #cd5c5c;
+}
+.container-fluid {
+  border-color: black ;
+  background-color: #F08080;
+}
+.first {
+  background-color: #ffa07a;
+}
+.second {
+  background-color: #fa8072;
+}
+h3 {
+  font-family: 'Bitter';
+}
+h4 {
+  font-family: 'Arvo';
+}
+h1 {
+  font-family: 'Holtwood One SC';
+}

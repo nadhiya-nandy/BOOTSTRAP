@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/lessfile2.css">
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/lessfile.css">
+<script type="text/javascript" >
+function getfunc()
+{
+var user=document.getElementById("fname").value;
+if (user=="null")
+{
+  alert("please enter your name");
+}
+else {
+  alert("Thank you "+ user);
+}
+
+}
+</script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-expand-lg  navbar-fixed-top  ">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand colo">MYAPP</a>
+        <button type="button" name="button" class="navbar-toggle" data-target="#nav_item" data-toggle="collapse"  aria-controls="nav_item" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="icon-bar" ></span>
+         <span class="icon-bar" ></span>
+         <span class="icon-bar" ></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="nav_item">
+    <ul class="nav navbar-nav ml-auto colo">
+      <li> <a href="SAMPLE.html"> HOME</a> </li>
+      <li> <a href="#">About</a> </li>
+      <li><a href="#">Contact</a> </li>
+      <li><a href="#">Help </a> </li>
+    </ul>
+      </div>
+
+<div class="container">
+  <h1 class="text-center">USER FEEDBACK</h1>
+
+    <form   method="post">
+
+    <div class="form-group">
+      <label for="namelabel">Name</label>
+        <input type="text" id="fname" class="form-control" name="fname" value="" required>
+      </div>
+
+      <div class="form-group">
+        <label for="emaillabel">Email</label>
+        <input type="email" name="" class="form-control" value="" required>
+      </div>
+
+      <div class="form-group">
+        <label for="comment">Comment</label>
+        <textarea name="commentinput" class='form-control' rows="8" cols="80"></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit"  onclick="getfunc();" class="form-control btn btn-md btn-success" name="button"> SUBMIT ! </button>
+      </div>
+
+    </div>
+
+
+    </form>
+  </div>
+
+
+
+
+
+
+    </nav>
+  </body>
+</html>
